@@ -2,3 +2,5 @@ var declarations are globally scoped or function scoped while let and const are 
 var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
 They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.
 While var and let can be declared without being initialized, const must be initialized during declaration
+
+Var declarations are globally scoped or function scoped. That means if a variable is declared with var outside a function then it is in the global scope(accessible anywhere). Otherwise, if they are inside a function we can only access them inside the function.
