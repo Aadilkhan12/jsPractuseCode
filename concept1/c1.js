@@ -1,5 +1,24 @@
 console.log("love")
 
+// folow  that blog 
+// // https://medium.com/@aayushtibra1997
+
+/*Var declarations are globally scoped or function scoped. 
+That means if a variable is declared with var outside a function then 
+it is in the global scope(accessible anywhere). Otherwise, 
+if they are inside a function we can only access them inside the function.*/
+
+ var  car = "honda";
+console.log(car);   // Honda
+
+ function newBike()
+ {
+ var bike = 'OLA";
+  console.log(bike);
+ }
+newBike();
+ console.log(bike); // Error : bike is not  Defined 
+
 // Issues with var keyword
  var  car =  "honda";
 var  car = "Maruti";
