@@ -12,9 +12,9 @@ console.log(id==anotherId)   //false  because symbol are create unique  id
 
 /*
   Type	                                  Result
-Undefined	                             "undefined"
+Undefined	                            "undefined"
 Null	                                 "object" (reason)
-Boolean	                               "boolean"
+Boolean	                              "boolean"
 Number	                               "number"
 BigInt	                               "bigint"
 String	                               "string"
@@ -25,3 +25,14 @@ Any other                             object	"object"
   */
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+
+
+
+
+
+//Stack and Heap memory in javascript
+//  stack                               heap 
+//   (primitive data type )         ( non primitive  data  type ) 
+//  copy milti hai                   reference milta hai 
+//  change nahi  hoti value          original value  main change  hota hai 
+
